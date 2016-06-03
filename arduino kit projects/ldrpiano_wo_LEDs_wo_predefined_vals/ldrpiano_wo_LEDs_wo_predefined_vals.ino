@@ -18,7 +18,7 @@ void loop() {
    Serial.println(ldrValue);
    frequency=ldrValue;
    tone(buzzerPin,frequency, 500);
-   delay(500);
+   delay(50);
   // put your main code here, to run repeatedly:
 }
 
