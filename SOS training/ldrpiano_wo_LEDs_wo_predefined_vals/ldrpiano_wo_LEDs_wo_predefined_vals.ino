@@ -16,7 +16,7 @@ for (int i=0; i<15; i++)
 void loop() {
    ldrValue=analogRead(ldrPin);
    Serial.println(ldrValue);
-   frequency=ldrValue;
+   int frequency=ldrValue;
    tone(buzzerPin,frequency, 500);
    delay(50);
   // put your main code here, to run repeatedly:
