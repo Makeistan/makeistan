@@ -1,4 +1,7 @@
 /*
+Link to original tutorial can be found at www.tinyURL.com/Makeistan
+*/
+/*
  SparkFun Inventor's Kit
  Example sketch 16
  Spark Fun Electronics
